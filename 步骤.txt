@@ -4,3 +4,37 @@
 4.  git remote add origin https://github.com/zisuZhao/web_bigevent.git
 5.  git push -u origin master
 6.  git checkout -b login
+
+不熟练:
+1.e.preventDefault();   阻止默认行为
+
+2.serialize()   可以快速拿到表单中填写的数据
+
+3.window.parent.***   在子页面中想调用父页面中的方法时,可以使用windown.parent.***方法
+
+4.localStorage对象  创建一个本地存储的 name/value 对:
+        4-1:保存数据的语法 
+            localStronge.setItem('key','value')
+        4-2:读取数据的语法
+            var lastname = localStronge.getItem('key')
+        4-3:删除数据的语法
+            localStronge.removeItem('key')
+        例:将登录成功得到的 token 字符串，保存到 localStorage 中  
+            localStorage.setItem('token','value')  
+
+5.location对象
+        跳转到新的页面
+        location.href = ''
+
+6.indexof()方法 可以返回某个指定的字符串值,在字符串中首次出现的位子
+        如果没有出现则返回 -1
+    语法:stringObject.indexOf('需要检索的字符串值')
+
+7.attr()  用于设置或返回被选元素的值
+    $('').attr('属性名','属性值')
+
+8.toUpperCase() 用于把字符串转换为大写
+    str.yoUpperCase()
+
+9.表单中的accept属性，
+    accept只能在input：file表单中使用，可以规定选中文件的格式
