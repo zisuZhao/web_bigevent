@@ -34,7 +34,26 @@
     $('').attr('属性名','属性值')
 
 8.toUpperCase() 用于把字符串转换为大写
-    str.yoUpperCase()
+    str.toUpperCase()
 
 9.表单中的accept属性，
     accept只能在input：file表单中使用，可以规定选中文件的格式
+
+10.flex布局
+    10-1：flex-direction 属性决定主轴的方向
+            row:从左往右 （默认值）
+            row-reverse:从右往左
+            column:从上往下
+            column-reverse：从下往上
+    10-2：flex-wrap  如果一条轴线排不下时，如何换行
+            nowrap:不换行
+            wrap:换行第一排在上边
+            wrap-reverse:换行第一排在下边
+    10-3：flex-flow   是flex-direction和flex-wrap的简写
+    10-4：justify-content  定义项目在主轴上面的对齐方式
+            flex-start 左对齐 (默认值)
+            flex-end  右对齐
+            center 居中
+            space-between  两端对齐
+            space-around   每个项目两侧间隔相等
+            
